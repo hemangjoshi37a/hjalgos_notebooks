@@ -1,0 +1,64 @@
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+import time
+import urllib.parse as urlparse
+from selenium.webdriver.chrome.options import Options
+from kiteconnect import KiteConnect
+from kiteconnect import KiteTicker
+import pandas as pd
+import datetime
+import pdb
+import logging
+logging.basicConfig(level=logging.ERROR)
+
+# pip3 install selenium
+# pip3 install urllib3
+
+class ZerodhaAccessToken:
+    def __init__(self):
+        self.apiKey = 'w19o0chuo929jxkp'
+        self.apiSecret = 'gsw8ps17ex7lf3cuji4prfnwb4vlyr4y'
+        self.accountUserName = 'AB1234'
+        self.accountPassword = 'mypassword'
+        self.securityPin = 'myPIN'
+
+    def getaccesstoken(self):
+        try:
+            login_url = "https://kite.trade/connect/login?v=3&api_key={apiKey}".format(apiKey=self.apiKey)
+
+            chrome_driver_path = "/usr/bin/chromedriver"
+            options = Options()
+            options.add_argument('--headless') #for headless
+            driver = webdriver.Chrome(chrome_driver_path, options=options)
+            driver.get(login_url)
+            wait = WebDriverWait(driver, 5)
+            wait.until(EC.presence_of_element_located((By.XPATH, '//input[@type="text"]')))\
+                .send_keys(self.accountUserName)
+            wait.until(EC.presence_of_element_located((By.XPATH, '//input[@type="password"]')))\
+                .send_keys(self.accountPassword)
+            wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]')))\
+                .submit()
+            wait.until(EC.presence_of_element_located((By.XPATH, '//input[@type="password"]'))).click()
+            time.sleep(5)
+            driver.find_element_by_xpath('//input[@type="password"]').send_keys(self.securityPin)
+            wait.until(EC.element_to_be_clickable((By.XPATH, '//button[@type="submit"]'))).submit()
+            wait.until(EC.url_contains('status=success'))
+            tokenurl = driver.current_url
+            parsed = urlparse.urlparse(tokenurl)
+            driver.close()
+            return urlparse.parse_qs(parsed.query)['request_token'][0]
+        except Exception as ex:
+            print(ex)
+
+_ztoken = ZerodhaAccessToken()
+actual_token = _ztoken.getaccesstoken()
+print('access token : '+str(actual_token))
+kite = KiteConnect(api_key=_ztoken.apiKey)
+data = kite.generate_session(actual_token,api_secret=_ztoken.apiSecret)
+kite.set_access_token(data["access_token"])
+print('request token : '+str(data["access_token"]))
+import joblib
+joblib.dump(kite,'kitefile.p')
+kws = KiteTicker(_ztoken.apiKey, data["access_token"])
