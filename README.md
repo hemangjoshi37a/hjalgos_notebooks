@@ -1,4 +1,4 @@
-hjAlgos
+📈📈📈 hjAlgos 🗠🗠🗠
 
 Algorithmic tradong NSE and BSE stocks using Zerodha's kite-connect API.
 
