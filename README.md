@@ -1,6 +1,6 @@
 📈📈📈 hjAlgos 🗠🗠🗠
 
-Algorithmic tradong NSE and BSE stocks using Zerodha's kite-connect API.
+Algorithmic trading NSE and BSE stocks using Zerodha's kite-connect API.
 
 Steps to give authentication to this library:
 1) Open "Allow_API.ipynb"
