@@ -1,5 +1,3 @@
-📈📈📈 hjAlgos 🗠🗠🗠
-
 ![hjAlgos_logo](https://user-images.githubusercontent.com/12392345/125793534-770505fc-e5dd-4869-a5e4-3654ff9d0785.jpg)
 
 
