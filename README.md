@@ -1,5 +1,8 @@
 📈📈📈 hjAlgos 🗠🗠🗠
 
+![hjAlgos_logo](https://user-images.githubusercontent.com/12392345/125793534-770505fc-e5dd-4869-a5e4-3654ff9d0785.jpg)
+
+
 Algorithmic trading NSE and BSE stocks using Zerodha's kite-connect API.
 
 Steps to give authentication to this library:
@@ -14,6 +17,7 @@ Whatsapp & Telegram : +919409077371
 Email : hemangjoshi37a@gmail.com
 
 Place a custom order on Fiverr : https://www.fiverr.com/share/7KpVd1
+Our Telegram Stock Market Tips Link : https://t.me/joinchat/Xad-Dry-GlI2MGFl
 
 Please contribute your suggestions and corections to support our efforts.
 
