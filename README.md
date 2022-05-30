@@ -15,7 +15,7 @@ Whatsapp & Telegram : +919409077371
 
 Email : hemangjoshi37a@gmail.com
 
-Place a custom order on Fiverr : https://www.fiverr.com/share/7KpVd1
+Place a custom order on hjLabs.in : [https://hjLabs.in](https://hjlabs.in/?product=custom-algotrading-software-for-zerodha-and-angel-w-source-code)
 
 Our Telegram Stock Market Tips Link : https://t.me/joinchat/Xad-Dry-GlI2MGFl
 
