@@ -10,8 +10,8 @@ Steps to give authentication to this library:
 4) Click on Allow/Give Access.
 5) Done..!
 
-Mobile : +917016525813
-Whatsapp & Telegram : +919409077371
+Mobile : [+917016525813](tel:+917016525813)
+Whatsapp & Telegram : [+919409077371](tel:+919409077371)
 
 Email : hemangjoshi37a@gmail.com
 
