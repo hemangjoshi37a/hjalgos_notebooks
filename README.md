@@ -23,7 +23,7 @@ Please contribute your suggestions and corections to support our efforts.
 
 Thank you.
 
-Buy us a coffe for $5 on PayPal ?
+Buy us a coffee for $5 on PayPal ?
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5JXC8VRCSUZWJ)
  
