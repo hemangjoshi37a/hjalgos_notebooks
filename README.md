@@ -13,7 +13,7 @@ Steps to give authentication to this library:
 Mobile : [+917016525813](tel:+917016525813)
 Whatsapp & Telegram : [+919409077371](tel:+919409077371)
 
-Email : hemangjoshi37a@gmail.com
+Email :[hemangjoshi37a@gmail.com](mailto:hemangjoshi37a@gmail.com)
 
 Place a custom order on hjLabs.in : [https://hjLabs.in](https://hjlabs.in/?product=custom-algotrading-software-for-zerodha-and-angel-w-source-code)
 
@@ -23,7 +23,7 @@ Please contribute your suggestions and corections to support our efforts.
 
 Thank you.
 
-You can donate us $5 on PayPal.
+Buy us a coffe for $5 on PayPal ?
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5JXC8VRCSUZWJ)
  
@@ -34,6 +34,7 @@ You can donate us $5 on PayPal.
 - [hjAlgos_notebooks](https://github.com/hemangjoshi37a/hjAlgos_notebooks)
 - [AutoCut](https://github.com/hemangjoshi37a/AutoCut)
 - [My_Projects](https://github.com/hemangjoshi37a/My_Projects)
+- [Cool Arduino and ESP8266 or NodeMCU Projects](https://github.com/hemangjoshi37a/my_Arduino)
 
 ## Checkout Our Other Products:
 - [WiFi IoT LED Matrix Display](https://hjlabs.in/product/wifi-iot-led-display)
