@@ -16,6 +16,7 @@
 - 1000 price alerts ✅
 - 1000 technical alerts ✅
 - 250 parallel chart connections ✅
+- Premium ✅
 
 
 
