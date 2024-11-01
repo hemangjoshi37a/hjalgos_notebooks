@@ -99,3 +99,23 @@ Steps to give authentication to this library:
 - [My_Projects](https://gitlab.com/hemangjoshi37a/My_Projects)
 - [Cool Arduino and ESP8266 or NodeMCU Projects](https://gitlab.com/hemangjoshi37a/my_Arduino)
 - [Telegram Trade Msg Backtest ML](https://gitlab.com/hemangjoshi37a/TelegramTradeMsgBacktestML)
+
+
+## 📫 Try Our Algo Trading Platform hjAlgos
+
+Ready to elevate your trading strategy? 
+
+<a href="https://hjalgos.hjlabs.in" style="
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+">
+    Try Our AlgoTrading Platform
+</a>
